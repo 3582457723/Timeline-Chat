@@ -1,0 +1,22 @@
+{
+  "name": "timeline-chat",
+  "version": "2.0.5",
+  "description": "Timeline.net Backend with Cloudflare Workers & D1",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy ./Timeline-Chat",
+    "dev": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "d1",
+    "chat"
+  ],
+  "author": "Altice-Works Co. Ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "wrangler": "^4.107.0"
+  }
+}

@@ -1,0 +1,11 @@
+name = "timeline-chat"
+main = "src/index.js"
+compatibility_date = "2026-07-03"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "timeline-chat"
+database_id = "eed2ab98-b9f5-4d37-acd1-9e1ebb1fcec8"
+
+[triggers]
+crons = [ "0 * * * * *" ]
